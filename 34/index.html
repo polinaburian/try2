@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <p>ENTER YOUR AGE</p>
+
+      <div class="output-container">
+        <p></p>
+        <div class="output-frame">
+          <div
+            class="number-container"
+            id="candlesOutput"
+            contenteditable="false"
+          ></div>
+        </div>
+      </div>
+      <p></p>
+      <p></p>
+      <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+
+      <button
+        id="blowOutButton"
+        class="hidden flicker-animation"
+        onclick="blowOutCandles()"
+      >
+        YAAAAY
+      </button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/footer-inject.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
